@@ -15,21 +15,26 @@ PyClassicRound has no dependencies.
 ```sh
 > from PyClassicRound import classic_round
 
-> classic_round(2.55, 1) #outputs 2.6 whereas python 3's round() outputs 2.6
+> classic_round(2.55, 1) #outputs 2.6 whereas python 3's round() outputs 2.5
+```
+#### OR
+
+```sh
+> from PyClassicRound import classic_round as cround
+
+> cround(2.55, 1) #outputs 2.6 whereas python 3's round() outputs 2.5
 ```
 
 ### Parameters
 
 - Number that needs to be rounded off
-- Upto which decimal places (__optional__) (**defaults to 2 decimal points** (Hundredths Place))
+- Upto how many decimal places (__optional__) (**defaults to 2 decimal points** (Hundredths Place))
 
 Input parameters can be in any format i.e. integer, float, string.
 
 Output will be:
-- integer -> if decimal points is 0
+- integer: if decimal points is 0
 - otherwise float
 
-License
-----
-
+### License
 MIT
