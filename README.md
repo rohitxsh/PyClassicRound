@@ -33,7 +33,7 @@ PyClassicRound has no dependencies.
 Input parameters can be in any format i.e. integer, float, string.
 
 Output will be:
-- integer: if decimal points is 0
+- integer: if decimal point is 0
 - otherwise float
 
 ### License
