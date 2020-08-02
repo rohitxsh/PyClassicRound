@@ -30,11 +30,12 @@ PyClassicRound has no dependencies.
 - Number that needs to be rounded off
 - Upto how many decimal places (__optional__) (**defaults to 2 decimal points** (Hundredths Place))
 
-Input parameters can be in any format i.e. integer, float, string.
+Input parameters can be in any format i.e. integer, float, string etc.
 
 Output will be:
 - integer: if decimal point is 0
-- otherwise float
+- on successful operation: float
+- None: if the input value cannot be resolved / rounded off for ex. strings -> ("", " ", "abc")
 
 ### License
 MIT

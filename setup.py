@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="PyClassicRound",
-    version="2.1",
+    version="2.2",
     author="Rohit",
     author_email="rohit.shrivastava93@gmail.com",
     description="Current python 3's round function uses Banker's rounding, this package will help you to round off numbers the classical way.",
