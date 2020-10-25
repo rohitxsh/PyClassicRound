@@ -2,6 +2,8 @@
 
 The current implementation of round() function in Python 3 uses Banker's rounding i.e integers are rounded to the nearest even integer, this package allows you to round off numbers the classical way.
 
+[![Downloads](https://pepy.tech/badge/pyclassicround)](https://pepy.tech/project/pyclassicround)
+
 ### Installation
 
 PyClassicRound has no dependencies.
